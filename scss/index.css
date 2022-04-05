@@ -1,0 +1,256 @@
+@import url(../vendor/normalize.css);
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+.body {
+  max-width: 1440px;
+  font-family: "Inter", sans-serif;
+  margin: auto;
+  background: #ffffff;
+}
+
+.header {
+  max-width: 100%;
+  background-color: #222222;
+  color: #ffffff;
+  border-radius: 20px;
+  margin: 10px 10px 60px;
+  position: relative;
+}
+
+.header__logo {
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  background-position: center;
+  border-radius: 40px;
+  margin: 30px 0 60px;
+}
+
+.header__content {
+  max-width: 1100px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__title {
+  max-width: 650px;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 69px;
+}
+
+.header__text {
+  margin: 28px 0 128px;
+  padding: 0;
+  max-width: 450px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  /* or 144% */
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.header__button {
+  margin-bottom: 130px;
+  padding: 15px 75px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+}
+
+.header__image {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 311px;
+  height: 630px;
+  margin-left: 82px;
+  margin-bottom: -30px;
+  margin-top: 63px;
+}
+
+.main {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card {
+  margin-right: 20px;
+  max-width: 460px;
+  max-height: 228px;
+  background-color: #f8f8f8;
+  border-radius: 20px;
+  padding: 40px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 45px 116px 72px;
+      grid-template-rows: 45px 116px 72px;
+  background: #f8f8f8;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card__name {
+  margin: 0 0 25px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: rgba(17, 17, 17, 0.6);
+}
+
+.card__title {
+  margin: 0 0 40px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.card__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(17, 17, 17, 0.6);
+}
+
+.title__name {
+  margin: 120px 0;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 68px;
+}
+
+.mobiles__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 120px;
+}
+
+.mobiles__item {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 350px;
+  height: 709px;
+  margin-right: 25px;
+}
+
+.mobiles__item:last-child {
+  margin-right: 0;
+}
+
+.request {
+  background: #f8f8f8;
+  border-radius: 10px;
+  padding: 60px;
+}
+
+.request__title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+}
+
+.request__subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.6);
+}
+
+.request__text {
+  width: 430px;
+  height: 24px;
+  border: none;
+  background: #ffffff;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 40px;
+  padding: 15px 20px;
+}
+
+.request__text::-webkit-input-placeholder {
+  color: rgba(17, 17, 17, 0.3);
+}
+
+.request__text:-ms-input-placeholder {
+  color: rgba(17, 17, 17, 0.3);
+}
+
+.request__text::-ms-input-placeholder {
+  color: rgba(17, 17, 17, 0.3);
+}
+
+.request__text::placeholder {
+  color: rgba(17, 17, 17, 0.3);
+}
+
+.request__text:last-child {
+  margin-right: 0;
+}
+
+.request__message {
+  width: 940px;
+  height: 100px;
+  border: none;
+  background: #ffffff;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 15px 20px;
+  margin-top: 20px;
+}
+
+.request__message::-webkit-input-placeholder {
+  color: rgba(17, 17, 17, 0.3);
+}
+
+.request__message:-ms-input-placeholder {
+  color: rgba(17, 17, 17, 0.3);
+}
+
+.request__message::-ms-input-placeholder {
+  color: rgba(17, 17, 17, 0.3);
+}
+
+.request__message::placeholder {
+  color: rgba(17, 17, 17, 0.3);
+}
+
+.request__button {
+  margin-bottom: 130px;
+  padding: 15px 75px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+}
+
+.request__data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=index.css.map */
